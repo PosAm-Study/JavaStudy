@@ -1,5 +1,10 @@
+import cal.controller.CalController;
+import cal.service.CalServiceImpl;
+import cal.util.CalUtil;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        CalController calController = new CalController(new CalServiceImpl());
+        calController.start();
     }
 }
