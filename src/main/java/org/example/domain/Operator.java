@@ -6,7 +6,8 @@ public enum Operator {
     PLUS("+"),
     MINUS("-"),
     MULTIPLY("*"),
-    DIVIDE("/");
+    DIVIDE("/"),
+    REMAIN("%");
 
     private String operator;
 
